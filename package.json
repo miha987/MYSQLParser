@@ -1,0 +1,17 @@
+{
+  "name": "mysqlparser",
+  "version": "1.0.0",
+  "description": "A simple version of MYSQL parser, made for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js --standalone MYSQLParser -o build/parser.js",
+    "watch": "watchify index.js --standalone MYSQLParser -o build/parser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "watchify": "^4.0.0"
+  }
+}
