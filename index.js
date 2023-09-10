@@ -1,4 +1,4 @@
-var MYSQLParser = require('./src/mysql_parser.js');
+var MYSQLParser = require('./src/mysql-parser.js');
 
 const createParser = () => {
     return new MYSQLParser();
